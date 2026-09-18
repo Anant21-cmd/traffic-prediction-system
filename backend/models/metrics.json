@@ -1,0 +1,42 @@
+{
+  "accuracy": 0.7567,
+  "precision": 0.7734,
+  "recall": 0.7614,
+  "f1_score": 0.7642,
+  "confusion_matrix": [
+    [
+      232,
+      38,
+      0
+    ],
+    [
+      78,
+      119,
+      13
+    ],
+    [
+      0,
+      17,
+      103
+    ]
+  ],
+  "labels": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "algorithm": "Decision Tree Classifier",
+  "n_samples": 3000,
+  "n_train": 2400,
+  "n_test": 600,
+  "features": [
+    "vehicle_count",
+    "hour",
+    "day_of_week",
+    "weather",
+    "location",
+    "previous_traffic"
+  ],
+  "tree_depth": 8,
+  "tree_leaves": 117
+}
